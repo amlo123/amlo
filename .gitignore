@@ -15,5 +15,12 @@
 
 /node_modules
 /yarn-error.log
+# Ignore public files
+/public
+
+# Ignore database config file
+config/database.yml
 
 .byebug_history
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+.rvmrc
